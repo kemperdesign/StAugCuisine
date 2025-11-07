@@ -1,0 +1,75 @@
+@media print {
+  body {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 10pt;
+  }
+
+  header, nav, .no-print, button {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 1in !important;
+  }
+
+  .printable-area {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    page-break-after: avoid;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  .print-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1rem;
+  }
+  
+  .print-title {
+    font-size: 24pt;
+    font-weight: bold;
+  }
+
+  .print-date {
+    font-size: 10pt;
+    color: #555;
+  }
+}
+
+.print-header {
+  display: none;
+}

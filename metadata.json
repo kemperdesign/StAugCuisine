@@ -1,0 +1,5 @@
+{
+  "name": "Food Cost Calculator",
+  "description": "An application to manage ingredients, recipes, and menu items to calculate food costs, profit margins, and selling prices for a restaurant or food business.",
+  "requestFramePermissions": []
+}
